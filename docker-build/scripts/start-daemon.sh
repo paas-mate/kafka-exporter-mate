@@ -21,5 +21,5 @@
 # make directory
 mkdir -p $PROM_HOME/logs
 
-nohup ${KAFKA_EXPORTER_HOME}/kafka-exporter/kafka_exporter --kafka.server=${KAFKA_BOOTSTRAP_SERVER} &
+nohup ${KAFKA_EXPORTER_HOME}/kafka_exporter --kafka.server=${KAFKA_BOOTSTRAP_SERVER} &
 
